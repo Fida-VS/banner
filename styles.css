@@ -1,0 +1,39 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header {
+    width: 90%;
+    margin-top: 36px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adress, .hours{
+    display: flex;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.messangers {
+    display: flex;
+    justify-content: space-between;
+}
