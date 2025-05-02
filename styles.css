@@ -40,9 +40,19 @@ header {
     justify-content: space-around;
 }
 
-.services {
+.services button {
+    width: 203px;
+    height: 38px;
+    background-color: var(--main-text-color);
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
+    border-radius: 48px;
+    border: none;
+}
+
+.services img {
+    margin-left: 15px;
 }
 
 .menu {
@@ -58,6 +68,10 @@ header {
     color: var(--main-text-color);
     font-size: 16px;
     font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
 }
 
 .messangers {
@@ -129,10 +143,16 @@ main {
     font-weight: bold;
 }
 
-.content_img img {
+.content_img .sertificate {
     display: block;
-    width: 425px;
-    height: 500px;
+    /* width: 425px;
+    height: 310px; */
+}
+
+.content_img .sertificate {
+    display: block;
+    /* width: 452px;
+    height: 222px; */
 }
 
 .content_text__signUp {
@@ -145,6 +165,7 @@ height: 55px;
 background-color: var(--main-text-color);
 color: #fff;
 border-radius: 29px;
+border: none;
 font-family: "Figtree", sans-serif;
 font-weight: 500;
 font-size: 26px;
