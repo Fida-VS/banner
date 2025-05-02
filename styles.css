@@ -6,6 +6,8 @@
     width: 1440px;
     margin: 0 auto;
     background-color: #fff;
+    color: var(--main-text-color);
+    font-family: "Nunito", sans-serif;
 }
 
 header {
@@ -21,6 +23,16 @@ header {
 
 .adress, .hours{
     display: flex;
+    font-size: 14px;
+}
+
+.phone-number {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.phone-button {
+    font-size: 14px;
 }
 
 .header-bottom {
@@ -28,19 +40,31 @@ header {
     justify-content: space-around;
 }
 
+.services {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
+    width: 576px;
+    height: 19px;
 }
 
 .menu a {
     text-decoration: none;
     display: inline-block;
+    color: var(--main-text-color);
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .messangers {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 main {
@@ -54,6 +78,8 @@ main {
     background-image: url('./img/Promo.png');
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 46px;
+    font-weight: bold;
 }
 
 .promo-text {
@@ -61,6 +87,7 @@ main {
     justify-content: center;
     align-items: center;
     color: #fff;
+    padding: 64px 0 64px 60px;
 }
 
 .promo-img {
@@ -80,6 +107,15 @@ main {
     display: flex;
 }
 
+.status_title, .signUp_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content_text__status p {
+    font-size: 18px;
+}
+
 .content_text__benefits {
     display: flex;
 }
@@ -88,6 +124,28 @@ main {
     display: flex;
 }
 
+.benefit-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content_img img {
+    display: block;
+    width: 425px;
+    height: 500px;
+}
+
 .content_text__signUp {
     width: 599px;
+}
+
+.signUp_button button {
+width: 367px;
+height: 55px;
+background-color: var(--main-text-color);
+color: #fff;
+border-radius: 29px;
+font-family: "Figtree", sans-serif;
+font-weight: 500;
+font-size: 26px;
 }
