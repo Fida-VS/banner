@@ -1,3 +1,7 @@
+:root {
+    --main-text-color: #485474;
+  }
+
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -7,6 +11,7 @@
 header {
     width: 90%;
     margin-top: 36px;
+    margin-bottom: 100px;
 }
 
 .header-top {
@@ -36,4 +41,53 @@ header {
 .messangers {
     display: flex;
     justify-content: space-between;
+}
+
+main {
+    width: 90%;
+}
+
+.promo {
+    display: flex;
+    width: 100%;
+    height: 348px;
+    background-image: url('./img/Promo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.promo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-img img {
+    display: block;
+    margin-top: -117px;
+    width: 591px;
+    height: 464px;
+}
+
+.content {
+    display: flex;
+}
+
+.content_text__benefits {
+    display: flex;
+}
+
+.benefit {
+    display: flex;
+}
+
+.content_text__signUp {
+    width: 599px;
 }
