@@ -12,6 +12,7 @@
 
 header {
     width: 90%;
+    margin: 0 auto;
     margin-top: 36px;
     margin-bottom: 100px;
 }
@@ -19,11 +20,32 @@ header {
 .header-top {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 26px;
 }
 
 .adress, .hours{
+    height: 38px;
     display: flex;
+    justify-content: space-around;
     font-size: 14px;
+}
+
+.adress {
+    width: 246px;
+}
+
+.hours {
+    width: 184px;
+}
+
+.phone {
+    width: 233px;
+    height: 68px;
+}
+
+.phone-button {
+    margin-left: 72px;
+    margin-top: 7px;
 }
 
 .phone-number {
@@ -31,13 +53,22 @@ header {
     font-weight: bold;
 }
 
-.phone-button {
+.phone-button button {
+    width: 149px;
+    height: 30px;
     font-size: 14px;
+    font-weight: bold;
+    color: #FC6C3F;
+    background-color: #F3F4F5;
+    border-radius: 29px;
+    border: none;
 }
 
 .header-bottom {
     display: flex;
     justify-content: space-around;
+    padding-top: 21px;
+    border-top: 1px solid rgb(72, 84, 116, 0.21);
 }
 
 .services button {
@@ -77,12 +108,44 @@ header {
 .messangers {
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
-    font-weight: bold;
+}
+
+.messangers div {
+ height: 36px;  
+ font-size: 14px;
+ font-weight: bold;
+ background-color: #F3F4F5;
+ border-radius: 41px;   
+}
+
+.messangers div:nth-child(2) {
+margin-left: 6px;
+}
+
+.messangers .telegram, .messangers .whatsApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messangers .telegram {
+    width: 201px;
+}
+
+.messangers .whatsApp {
+    width: 208px;
+}
+
+.messangers img {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-right: 14px;
 }
 
 main {
     width: 90%;
+    margin: 0 auto;
 }
 
 .promo {
@@ -119,6 +182,14 @@ main {
 
 .content {
     display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    border-radius: 0 0 60px 60px;
+    padding: 60px;
+}
+
+.content_text__about {
+    padding-bottom: 60px;
 }
 
 .status_title, .signUp_title {
@@ -131,11 +202,16 @@ main {
 }
 
 .content_text__benefits {
+    width: 710px;
+    height: 104px;
     display: flex;
 }
 
 .benefit {
+    width: 334px;
+    height: 104px;
     display: flex;
+    justify-content: space-between;
 }
 
 .benefit-text {
@@ -143,20 +219,51 @@ main {
     font-weight: bold;
 }
 
-.content_img .sertificate {
-    display: block;
-    /* width: 425px;
-    height: 310px; */
+.content_text__status {
+    width: 685px;
+    height: 149px;
+    padding-bottom: 32px;
+}
+
+.content_img {
+    width: 454px;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content_img .sertificate {
+    width: 425px;
+    height: 310px;
+}
+
+.content_img .reflection {
+    width: 452px;
+    height: 222px;
+    overflow: hidden;
+}
+
+.content_img .reflection img {
+    margin-left: -300px;
+    margin-top: -80px;
+    width: 800px;
+}
+
+.content_img img {
     display: block;
+    width: 100%;
     /* width: 452px;
     height: 222px; */
 }
 
 .content_text__signUp {
     width: 599px;
+}
+
+.signUp_title {
+    padding-bottom: 16px;
 }
 
 .signUp_button button {
