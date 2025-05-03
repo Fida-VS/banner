@@ -1,3 +1,5 @@
+
+
 :root {
     --main-text-color: #485474;
   }
@@ -19,8 +21,22 @@ header {
 
 .header-top {
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 26px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    width: 300px;
+    height: 73px;
+    margin-right: 229px;
+    padding-left: 2px;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
 }
 
 .adress, .hours{
@@ -32,15 +48,23 @@ header {
 
 .adress {
     width: 246px;
+    margin-left: -50px;
+}
+
+.adress-text {
+    margin-left: 10px;
 }
 
 .hours {
     width: 184px;
+    margin-left: 10px;
 }
 
 .phone {
     width: 233px;
     height: 68px;
+    margin-top: 11px;
+    margin-left: px;
 }
 
 .phone-button {
@@ -68,7 +92,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding-top: 21px;
-    border-top: 1px solid rgb(72, 84, 116, 0.21);
+    border-top: 2px solid rgb(72, 84, 116, 0.21);
 }
 
 .services button {
@@ -80,6 +104,8 @@ header {
     font-weight: bold;
     border-radius: 48px;
     border: none;
+    margin-top: -12px;
+    margin-left: -7px;
 }
 
 .services img {
@@ -108,6 +134,7 @@ header {
 .messangers {
     display: flex;
     justify-content: space-between;
+    margin-left: 12px;
 }
 
 .messangers div {
@@ -126,6 +153,8 @@ margin-left: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -12px;
+   
 }
 
 .messangers .telegram {
@@ -144,8 +173,11 @@ margin-left: 6px;
 }
 
 main {
-    width: 90%;
+    width: 89.6%;
     margin: 0 auto;
+    height: 917px;
+    margin-bottom: 100px;
+    /* padding-bottom: 109px; */
 }
 
 .promo {
@@ -160,22 +192,24 @@ main {
 }
 
 .promo-text {
+    width: 641px;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     padding: 64px 0 64px 60px;
+    line-height: 120%;
 }
 
 .promo-img {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .promo-img img {
     display: block;
-    margin-top: -117px;
+    margin-top: -84px;
+    margin-left: -44px;
     width: 591px;
     height: 464px;
 }
@@ -185,7 +219,7 @@ main {
     justify-content: space-around;
     background-color: #f1f1f1;
     border-radius: 0 0 60px 60px;
-    padding: 60px;
+    padding: 60px 34px 0 60px;
 }
 
 .content_text__about {
@@ -197,6 +231,7 @@ main {
     font-weight: bold;
 }
 
+
 .content_text__status p {
     font-size: 18px;
 }
@@ -205,6 +240,8 @@ main {
     width: 710px;
     height: 104px;
     display: flex;
+    justify-content: space-between;
+    margin-top: -4px;
 }
 
 .benefit {
@@ -217,9 +254,13 @@ main {
 .benefit-text {
     font-size: 20px;
     font-weight: bold;
+    margin-left: 16px;
+    line-height: 130%;
 }
 
 .content_text__status {
+    margin-top: 6px;
+    margin-left: -6px;
     width: 685px;
     height: 149px;
     padding-bottom: 32px;
@@ -227,7 +268,6 @@ main {
 
 .content_img {
     width: 454px;
-    /* height: 500px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -237,25 +277,26 @@ main {
 .content_img .sertificate {
     width: 425px;
     height: 310px;
+    margin-top: -8px;
+    margin-left: 12px;
 }
 
 .content_img .reflection {
     width: 452px;
-    height: 222px;
+    height: 370px;
     overflow: hidden;
 }
 
 .content_img .reflection img {
-    margin-left: -300px;
-    margin-top: -80px;
-    width: 800px;
+    margin-left: -270px;
+    margin-top: -76px;
+    width: 740px;
+    height: 420px;
 }
 
 .content_img img {
     display: block;
     width: 100%;
-    /* width: 452px;
-    height: 222px; */
 }
 
 .content_text__signUp {
@@ -264,10 +305,11 @@ main {
 
 .signUp_title {
     padding-bottom: 16px;
+    margin-left: -4px;
 }
 
 .signUp_button button {
-width: 367px;
+width: 370px;
 height: 55px;
 background-color: var(--main-text-color);
 color: #fff;
@@ -276,4 +318,6 @@ border: none;
 font-family: "Figtree", sans-serif;
 font-weight: 500;
 font-size: 26px;
+margin-top: 4px;
+margin-left: -8px;
 }
