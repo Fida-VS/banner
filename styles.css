@@ -176,8 +176,7 @@ main {
     width: 89.6%;
     margin: 0 auto;
     height: 917px;
-    margin-bottom: 100px;
-    /* padding-bottom: 109px; */
+    /* margin-bottom: 100px; */
 }
 
 .promo {
@@ -220,6 +219,7 @@ main {
     background-color: #f1f1f1;
     border-radius: 0 0 60px 60px;
     padding: 60px 34px 0 60px;
+    z-index: 10;
 }
 
 .content_text__about {
@@ -283,7 +283,7 @@ main {
 
 .content_img .reflection {
     width: 452px;
-    height: 370px;
+    height: 220px;
     overflow: hidden;
 }
 
@@ -291,7 +291,7 @@ main {
     margin-left: -270px;
     margin-top: -76px;
     width: 740px;
-    height: 420px;
+    height: 350px;
 }
 
 .content_img img {
