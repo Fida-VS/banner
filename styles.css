@@ -320,3 +320,7 @@ font-size: 26px;
 margin-top: 4px;
 margin-left: -8px;
 }
+
+.phone .phone-button button, .telegram, .whatsApp, .services-text, .signUp_button button {
+    cursor: pointer;
+}
