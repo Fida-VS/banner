@@ -324,3 +324,76 @@ margin-left: -8px;
 .phone .phone-button button, .telegram, .whatsApp, .services-text, .signUp_button button {
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+
+   .container {
+    width: 720px;
+    margin: 0 auto;
+   }
+
+   header {
+    display: none;
+   }
+
+   main {
+    width: 100%;
+    height: 1087px;
+    margin-top: 32px;
+    margin-bottom: 61.18px;
+}
+
+.promo {
+    width: 100%;
+    font-size: 36px;
+    background-image: url('./img/Promo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promo-text {
+    width: 372px;
+    height: 215px;
+    padding: 64px 0 64px 60px;
+    line-height: 120%;
+}
+
+.promo-img {
+    display: flex;
+}
+
+.promo-img img {
+    margin-top: 4px;
+    margin-left: 0px;
+    width: 438px;
+    height: 344px;
+}
+
+.content {
+    padding: 60px 60px 44px 60px;
+}
+
+.content_img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_img .sertificate {
+    width: 300px;
+    height: 212px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.content_img .reflection {
+  display: none;
+}
+
+.content_img img {
+    display: block;
+    width: 100%;
+}
+
+  }
